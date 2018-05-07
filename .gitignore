@@ -10,6 +10,8 @@
 ##  *.[oa]    支持通配符：过滤repo中所有以.o或者.a为扩展名的文件
 
 /target/ 
+*/target/*
+target/
 
 .classpath
 .project

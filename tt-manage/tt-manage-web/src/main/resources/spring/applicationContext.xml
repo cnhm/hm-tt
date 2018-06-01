@@ -32,7 +32,7 @@
 		<!-- 数据库驱动 -->
 		<property name="driverClass" value="${jdbc.driverClassName}" />
 		<!-- 相应驱动的jdbcUrl -->
-		<property name="jdbcUrl" value="${jdbc.url}" />
+		<property name="jdbcUrl" value="${jdbc.url}" /> 
 		<!-- 数据库的用户名 -->
 		<property name="username" value="${jdbc.username}" />
 		<!-- 数据库的密码 -->
@@ -49,5 +49,5 @@
 		<!-- 每个分区最小的连接数 -->
 		<property name="minConnectionsPerPartition" value="5" />
 	</bean>
-
+	
 </beans>

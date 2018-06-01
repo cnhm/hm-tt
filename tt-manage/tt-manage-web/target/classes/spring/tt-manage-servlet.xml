@@ -11,7 +11,7 @@
 	<mvc:annotation-driven/>
 	
 	<!-- 扫描Controller 必须有-->
-	<context:component-scan base-package="com.tt.manage.controller"/>
+	<context:component-scan base-package="com.tt.manage.controller"/> 
 	
 	<!-- 视图解析器 -->
 	<!-- 
